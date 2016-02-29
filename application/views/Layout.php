@@ -38,16 +38,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"> Darts</a>
+                        <a class="navbar-brand" href="HomeController"> Darts</a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="">Home</a></li>
+                            <li class="active"><a href="HomeController">Home</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Spelers <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="article/add">Voeg een speler toe</a></li>
-                                    <li><a href="article">Bekijk alle spelers</a></li>
+                                    <li><a href="PlayerController">Voeg een speler toe</a></li>
+                                    <li><a href="">Bekijk alle spelers</a></li>
                                 </ul>
                             </li>
                         </ul>

@@ -9,8 +9,10 @@ class PlayerModel extends CI_Model
 
 	}
 
-	public function AddNewPlayer()
+	public function AddNewPlayer($name)
 	{
+		$this->db->set('name', $name); 
+		$this->db->insert('players');  
 
 	}
 }

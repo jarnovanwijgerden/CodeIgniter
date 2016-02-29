@@ -20,7 +20,6 @@
                // echo "Naam: ".$playsers->naam."<br/>";
                 $games = intval($playsers->wins) + intval($playsers->loses);
                 echo "<tr><td>".$playsers->name."<td>".$games."<td>".$playsers->wins."<td>".$playsers->loses."</td></td></td></td></tr>";
-
             }
             ?>
             </tbody>

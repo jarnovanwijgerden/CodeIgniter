@@ -12,8 +12,6 @@ class HomeController extends CI_Controller
 
 	public function index()
 	{
-		
-
 		$data["allplayers"] = $this->PlayerModel->getAllPlayers();
 		$data['content']        =   $this->load->view('HomeView', $data, true);
      	$this->load->view('layout', $data);
